@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:gravity="center"
+    tools:context="kuari.in.remotelock.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your lock key"
+        android:textStyle="bold"
+android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<EditText
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/password_entered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#11d217"
+        android:textSize="25sp"
+        android:text="Enter your lock key"
+
+        />
+    <TextView
+        android:id="@+id/chk"
+        android:text="Enter your lock key"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
